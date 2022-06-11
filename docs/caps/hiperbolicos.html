@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt" xml:lang="pt"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-0.9.250">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Anotações de Cálculo para Laura - 3&nbsp; Funções (ím)pares e Hiperbólicas</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+</style>
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<link href="../references.html" rel="next">
+<link href="../caps/hiperbolicas.html" rel="prev">
+<link href="../favicon" rel="icon">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link id="quarto-text-highlighting-styles" href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "Nenhum resultado",
+    "search-matching-documents-text": "documentos correspondentes",
+    "search-copy-link-title": "Copiar link para a busca",
+    "search-hide-matches-text": "Esconder correspondências adicionais",
+    "search-more-match-text": "mais correspondência neste documento",
+    "search-more-matches-text": "mais correspondências neste documento",
+    "search-clear-button-title": "Limpar",
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar"
+  }
+}</script>
+
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+</head>
+
+<body class="floating nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Anotações de Cálculo para Laura</span>
+  </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/VitorBSP/Aula-Laura"><i class="bi bi-github" role="img">
+</i> 
+ </a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Funções (ím)pares e Hiperbólicas</span></h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+      </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">Prefácio</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../caps/funcoes.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Funções Pares e Ímpares</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../caps/hiperbolicas.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Funções Hiperbólicas</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../caps/hiperbolicos.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Funções (ím)pares e Hiperbólicas</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../references.html" class="sidebar-item-text sidebar-link">References</a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc">
+    <h2 id="toc-title">Índice</h2>
+   
+  <ul>
+  <li><a href="#as-funções-hiperbólicas-são-funções-pares-ou-ímpares" id="toc-as-funções-hiperbólicas-são-funções-pares-ou-ímpares" class="nav-link active" data-scroll-target="#as-funções-hiperbólicas-são-funções-pares-ou-ímpares"> <span class="header-section-number">4</span> As funções hiperbólicas são funções pares ou ímpares?</a>
+  <ul class="collapse">
+  <li><a href="#seno-hiperbólico" id="toc-seno-hiperbólico" class="nav-link" data-scroll-target="#seno-hiperbólico"> <span class="header-section-number">4.1</span> Seno hiperbólico</a>
+  <ul class="collapse">
+  <li><a href="#definindo-sinh-x" id="toc-definindo-sinh-x" class="nav-link" data-scroll-target="#definindo-sinh-x"> <span class="header-section-number">4.1.1</span> Definindo <span class="math inline">\(\sinh(-x)\)</span></a></li>
+  <li><a href="#definindo--sinhx" id="toc-definindo--sinhx" class="nav-link" data-scroll-target="#definindo--sinhx"> <span class="header-section-number">4.1.2</span> Definindo <span class="math inline">\(-\sinh(x)\)</span></a></li>
+  <li><a href="#sinh-x-é-igual-a--sinhx" id="toc-sinh-x-é-igual-a--sinhx" class="nav-link" data-scroll-target="#sinh-x-é-igual-a--sinhx"> <span class="header-section-number">4.1.3</span> <span class="math inline">\(\sinh(-x)\)</span> é igual a <span class="math inline">\(-\sinh(x)\)</span>?</a></li>
+  </ul></li>
+  <li><a href="#tangente-hiperbólica" id="toc-tangente-hiperbólica" class="nav-link" data-scroll-target="#tangente-hiperbólica"> <span class="header-section-number">4.2</span> Tangente hiperbólica</a>
+  <ul class="collapse">
+  <li><a href="#definindo-tanh-x" id="toc-definindo-tanh-x" class="nav-link" data-scroll-target="#definindo-tanh-x"> <span class="header-section-number">4.2.1</span> Definindo <span class="math inline">\(\tanh(-x)\)</span></a></li>
+  <li><a href="#definindo--tanhx" id="toc-definindo--tanhx" class="nav-link" data-scroll-target="#definindo--tanhx"> <span class="header-section-number">4.2.2</span> Definindo <span class="math inline">\(-\tanh(x)\)</span></a></li>
+  <li><a href="#tanh-x-é-igual-a--tanhx" id="toc-tanh-x-é-igual-a--tanhx" class="nav-link" data-scroll-target="#tanh-x-é-igual-a--tanhx"> <span class="header-section-number">4.2.3</span> <span class="math inline">\(\tanh(-x)\)</span> é igual a <span class="math inline">\(-\tanh(x)\)</span>?</a></li>
+  </ul></li>
+  <li><a href="#cotangente-hiperbólica" id="toc-cotangente-hiperbólica" class="nav-link" data-scroll-target="#cotangente-hiperbólica"> <span class="header-section-number">4.3</span> Cotangente hiperbólica</a>
+  <ul class="collapse">
+  <li><a href="#definindo-coth-x" id="toc-definindo-coth-x" class="nav-link" data-scroll-target="#definindo-coth-x"> <span class="header-section-number">4.3.1</span> Definindo <span class="math inline">\(\coth(-x)\)</span></a></li>
+  <li><a href="#definindo--cothx" id="toc-definindo--cothx" class="nav-link" data-scroll-target="#definindo--cothx"> <span class="header-section-number">4.3.2</span> Definindo <span class="math inline">\(-\coth(x)\)</span></a></li>
+  <li><a href="#coth-x-é-igual-a--cothx" id="toc-coth-x-é-igual-a--cothx" class="nav-link" data-scroll-target="#coth-x-é-igual-a--cothx"> <span class="header-section-number">4.3.3</span> <span class="math inline">\(\coth(-x)\)</span> é igual a <span class="math inline">\(-\coth(x)\)</span>?</a></li>
+  </ul></li>
+  <li><a href="#cossecante-hiperbólica" id="toc-cossecante-hiperbólica" class="nav-link" data-scroll-target="#cossecante-hiperbólica"> <span class="header-section-number">4.4</span> Cossecante hiperbólica</a>
+  <ul class="collapse">
+  <li><a href="#definindo-csch-x" id="toc-definindo-csch-x" class="nav-link" data-scroll-target="#definindo-csch-x"> <span class="header-section-number">4.4.1</span> Definindo <span class="math inline">\(csch(-x)\)</span></a></li>
+  <li><a href="#definindo--cschx" id="toc-definindo--cschx" class="nav-link" data-scroll-target="#definindo--cschx"> <span class="header-section-number">4.4.2</span> Definindo <span class="math inline">\(-csch(x)\)</span></a></li>
+  <li><a href="#csch-x-é-igual-a--cschx" id="toc-csch-x-é-igual-a--cschx" class="nav-link" data-scroll-target="#csch-x-é-igual-a--cschx"> <span class="header-section-number">4.4.3</span> <span class="math inline">\(csch(-x)\)</span> é igual a <span class="math inline">\(-csch(x)\)</span>?</a></li>
+  </ul></li>
+  <li><a href="#cosseno-hiperbólico" id="toc-cosseno-hiperbólico" class="nav-link" data-scroll-target="#cosseno-hiperbólico"> <span class="header-section-number">4.5</span> Cosseno hiperbólico</a>
+  <ul class="collapse">
+  <li><a href="#definindo-cosh-x" id="toc-definindo-cosh-x" class="nav-link" data-scroll-target="#definindo-cosh-x"> <span class="header-section-number">4.5.1</span> Definindo <span class="math inline">\(\cosh(-x)\)</span></a></li>
+  <li><a href="#coshx-é-igual-cosh-x" id="toc-coshx-é-igual-cosh-x" class="nav-link" data-scroll-target="#coshx-é-igual-cosh-x"> <span class="header-section-number">4.5.2</span> <span class="math inline">\(\cosh(x)\)</span> é igual <span class="math inline">\(\cosh(-x)\)</span>?</a></li>
+  </ul></li>
+  <li><a href="#secante-hiperbólica" id="toc-secante-hiperbólica" class="nav-link" data-scroll-target="#secante-hiperbólica"> <span class="header-section-number">4.6</span> Secante hiperbólica</a>
+  <ul class="collapse">
+  <li><a href="#definindo-sech-x" id="toc-definindo-sech-x" class="nav-link" data-scroll-target="#definindo-sech-x"> <span class="header-section-number">4.6.1</span> Definindo <span class="math inline">\(sech(-x)\)</span></a></li>
+  <li><a href="#sechx-é-igual-a-sech-x" id="toc-sechx-é-igual-a-sech-x" class="nav-link" data-scroll-target="#sechx-é-igual-a-sech-x"> <span class="header-section-number">4.6.2</span> <span class="math inline">\(sech(x)\)</span> é igual a <span class="math inline">\(sech(-x)\)</span>?</a></li>
+  </ul></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title d-none d-lg-block"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Funções (ím)pares e Hiperbólicas</span></h1>
+</div>
+
+
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Autores</div>
+    <div class="quarto-title-meta-contents">
+          </div>
+  </div>
+    
+    
+  </div>
+  
+
+</header>
+
+<p>Verificando a relação da funções hiperbólicas e funções ímpares ou pares.</p>
+<section id="as-funções-hiperbólicas-são-funções-pares-ou-ímpares" class="level1" data-number="4">
+<h1 data-number="4"><span class="header-section-number">4</span> As funções hiperbólicas são funções pares ou ímpares?</h1>
+<p>Nessa seção iremos verificar quais funções hiperbólicas são ímpares ou pares:</p>
+<section id="seno-hiperbólico" class="level2" data-number="4.1">
+<h2 data-number="4.1" class="anchored" data-anchor-id="seno-hiperbólico"><span class="header-section-number">4.1</span> Seno hiperbólico</h2>
+<section id="definindo-sinh-x" class="level3" data-number="4.1.1">
+<h3 data-number="4.1.1" class="anchored" data-anchor-id="definindo-sinh-x"><span class="header-section-number">4.1.1</span> Definindo <span class="math inline">\(\sinh(-x)\)</span></h3>
+<p><span class="math display">\[\sinh(x) = \dfrac{e^{x} - e^{-x}}{2}\]</span></p>
+<p><span class="math display">\[\sinh(-x) = \dfrac{e^{-x} - e^{x}}{2} \]</span></p>
+</section>
+<section id="definindo--sinhx" class="level3" data-number="4.1.2">
+<h3 data-number="4.1.2" class="anchored" data-anchor-id="definindo--sinhx"><span class="header-section-number">4.1.2</span> Definindo <span class="math inline">\(-\sinh(x)\)</span></h3>
+<p><span class="math display">\[\sinh(x) = \dfrac{e^{x} - e^{-x}}{2}\]</span></p>
+<p><span class="math display">\[-\sinh(x) = - \dfrac{e^{x} - e^{-x}}{2}\]</span></p>
+<p><span class="math display">\[-\sinh(x) = \dfrac{-e^{x} + e^{-x}}{2}\]</span></p>
+</section>
+<section id="sinh-x-é-igual-a--sinhx" class="level3" data-number="4.1.3">
+<h3 data-number="4.1.3" class="anchored" data-anchor-id="sinh-x-é-igual-a--sinhx"><span class="header-section-number">4.1.3</span> <span class="math inline">\(\sinh(-x)\)</span> é igual a <span class="math inline">\(-\sinh(x)\)</span>?</h3>
+<p><span class="math display">\[\sinh(-x) \quad =  \quad -\sinh(x) \]</span></p>
+<p><span class="math display">\[ \dfrac{e^{-x} - e^{x}}{2} \quad = \quad \dfrac{-e^{x} + e^{-x}}{2} \]</span></p>
+<p>Sim, o seno hiperbólico é função ímpar.</p>
+</section>
+</section>
+<section id="tangente-hiperbólica" class="level2" data-number="4.2">
+<h2 data-number="4.2" class="anchored" data-anchor-id="tangente-hiperbólica"><span class="header-section-number">4.2</span> Tangente hiperbólica</h2>
+<section id="definindo-tanh-x" class="level3" data-number="4.2.1">
+<h3 data-number="4.2.1" class="anchored" data-anchor-id="definindo-tanh-x"><span class="header-section-number">4.2.1</span> Definindo <span class="math inline">\(\tanh(-x)\)</span></h3>
+<p><span class="math display">\[\tanh(x) = \dfrac{e^{x} - e^{-x}}{e^{x} + e^{-x}}\]</span></p>
+<p><span class="math display">\[\tanh(-x) = \dfrac{e^{-x} - e^{x}}{e^{-x} + e^{x}}\]</span></p>
+</section>
+<section id="definindo--tanhx" class="level3" data-number="4.2.2">
+<h3 data-number="4.2.2" class="anchored" data-anchor-id="definindo--tanhx"><span class="header-section-number">4.2.2</span> Definindo <span class="math inline">\(-\tanh(x)\)</span></h3>
+<p><span class="math display">\[\tanh(x) = \dfrac{e^{x} - e^{-x}}{e^{x} + e^{-x}}\]</span></p>
+<p><span class="math display">\[-\tanh(x) = -\dfrac{e^{x} - e^{-x}}{e^{x} + e^{-x}}\]</span></p>
+<p><span class="math display">\[-\tanh(x) = \dfrac{-e^{x} + e^{-x}}{e^{x} + e^{-x}}\]</span></p>
+</section>
+<section id="tanh-x-é-igual-a--tanhx" class="level3" data-number="4.2.3">
+<h3 data-number="4.2.3" class="anchored" data-anchor-id="tanh-x-é-igual-a--tanhx"><span class="header-section-number">4.2.3</span> <span class="math inline">\(\tanh(-x)\)</span> é igual a <span class="math inline">\(-\tanh(x)\)</span>?</h3>
+<p><span class="math display">\[\tanh(-x) \quad =  \quad -\tanh(x) \]</span></p>
+<p><span class="math display">\[ \dfrac{e^{-x} - e^{x}}{e^{-x} + e^{x}} \quad = \quad \dfrac{-e^{x} + e^{-x}}{e^{x} + e^{-x}} \]</span></p>
+<p>Sim, a tangente hiperbólica é função ímpar.</p>
+</section>
+</section>
+<section id="cotangente-hiperbólica" class="level2" data-number="4.3">
+<h2 data-number="4.3" class="anchored" data-anchor-id="cotangente-hiperbólica"><span class="header-section-number">4.3</span> Cotangente hiperbólica</h2>
+<section id="definindo-coth-x" class="level3" data-number="4.3.1">
+<h3 data-number="4.3.1" class="anchored" data-anchor-id="definindo-coth-x"><span class="header-section-number">4.3.1</span> Definindo <span class="math inline">\(\coth(-x)\)</span></h3>
+<p><span class="math display">\[\coth(x) = \dfrac{e^{x} + e^{-x}}{e^{x} - e^{-x}} \quad = \quad \dfrac{1}{\tanh(x)}\]</span><br>
+<span class="math display">\[\coth(-x) = \dfrac{e^{-x} + e^{x}}{e^{-x} - e^{x}} \]</span></p>
+</section>
+<section id="definindo--cothx" class="level3" data-number="4.3.2">
+<h3 data-number="4.3.2" class="anchored" data-anchor-id="definindo--cothx"><span class="header-section-number">4.3.2</span> Definindo <span class="math inline">\(-\coth(x)\)</span></h3>
+<p><span class="math display">\[-\coth(x) = \dfrac{e^{x} + e^{-x}}{e^{x} - e^{-x}} \quad = \quad \dfrac{1}{\tanh(x)}\]</span></p>
+<p><span class="math display">\[-\coth(x) = -\dfrac{e^{x} + e^{-x}}{e^{x} - e^{-x}} \]</span></p>
+<p><span class="math display">\[-\coth(x) = \dfrac{e^{x} + e^{-x}}{-e^{x} + e^{-x}} \]</span></p>
+</section>
+<section id="coth-x-é-igual-a--cothx" class="level3" data-number="4.3.3">
+<h3 data-number="4.3.3" class="anchored" data-anchor-id="coth-x-é-igual-a--cothx"><span class="header-section-number">4.3.3</span> <span class="math inline">\(\coth(-x)\)</span> é igual a <span class="math inline">\(-\coth(x)\)</span>?</h3>
+<p><span class="math display">\[\coth(-x) \quad =  \quad -\coth(x) \]</span></p>
+<p><span class="math display">\[ \dfrac{e^{-x} + e^{x}}{e^{-x} - e^{x}} \quad = \quad \dfrac{e^{x} + e^{-x}}{-e^{x} + e^{-x}} \]</span></p>
+<p>Sim, a cotangente hiperbólica é função ímpar.</p>
+</section>
+</section>
+<section id="cossecante-hiperbólica" class="level2" data-number="4.4">
+<h2 data-number="4.4" class="anchored" data-anchor-id="cossecante-hiperbólica"><span class="header-section-number">4.4</span> Cossecante hiperbólica</h2>
+<section id="definindo-csch-x" class="level3" data-number="4.4.1">
+<h3 data-number="4.4.1" class="anchored" data-anchor-id="definindo-csch-x"><span class="header-section-number">4.4.1</span> Definindo <span class="math inline">\(csch(-x)\)</span></h3>
+<p><span class="math display">\[csch(x) = \dfrac{2}{e^{x} - e^{-x}} \quad = \quad \dfrac{1}{\sinh(x)}\]</span></p>
+<p><span class="math display">\[csch(-x) = \dfrac{2}{e^{-x} - e^{x}}\]</span></p>
+</section>
+<section id="definindo--cschx" class="level3" data-number="4.4.2">
+<h3 data-number="4.4.2" class="anchored" data-anchor-id="definindo--cschx"><span class="header-section-number">4.4.2</span> Definindo <span class="math inline">\(-csch(x)\)</span></h3>
+<p><span class="math display">\[csch(x) = \dfrac{2}{e^{x} - e^{-x}} \quad = \quad \dfrac{1}{\sinh(x)}\]</span></p>
+<p><span class="math display">\[-csch(x) = -\dfrac{2}{e^{x} - e^{-x}}\]</span></p>
+<p><span class="math display">\[-csch(x) = \dfrac{2}{-e^{x} + e^{-x}}\]</span></p>
+</section>
+<section id="csch-x-é-igual-a--cschx" class="level3" data-number="4.4.3">
+<h3 data-number="4.4.3" class="anchored" data-anchor-id="csch-x-é-igual-a--cschx"><span class="header-section-number">4.4.3</span> <span class="math inline">\(csch(-x)\)</span> é igual a <span class="math inline">\(-csch(x)\)</span>?</h3>
+<p><span class="math display">\[csch(-x) \quad =  \quad -csch(x)  \]</span></p>
+<p><span class="math display">\[ \dfrac{2}{e^{-x} - e^{x}} \quad = \quad \dfrac{2}{-e^{x} + e^{-x}} \]</span></p>
+<p>Sim, a cossecante hiperbólica é função ímpar.</p>
+</section>
+</section>
+<section id="cosseno-hiperbólico" class="level2" data-number="4.5">
+<h2 data-number="4.5" class="anchored" data-anchor-id="cosseno-hiperbólico"><span class="header-section-number">4.5</span> Cosseno hiperbólico</h2>
+<section id="definindo-cosh-x" class="level3" data-number="4.5.1">
+<h3 data-number="4.5.1" class="anchored" data-anchor-id="definindo-cosh-x"><span class="header-section-number">4.5.1</span> Definindo <span class="math inline">\(\cosh(-x)\)</span></h3>
+<p><span class="math display">\[\cosh(x) = \dfrac{e^{x} + e^{-x}}{2}\]</span></p>
+<p><span class="math display">\[\cosh(-x) = \dfrac{e^{-x} + e^{x}}{2}\]</span></p>
+</section>
+<section id="coshx-é-igual-cosh-x" class="level3" data-number="4.5.2">
+<h3 data-number="4.5.2" class="anchored" data-anchor-id="coshx-é-igual-cosh-x"><span class="header-section-number">4.5.2</span> <span class="math inline">\(\cosh(x)\)</span> é igual <span class="math inline">\(\cosh(-x)\)</span>?</h3>
+<p><span class="math display">\[\cosh(x) \quad =  \quad -\cosh(x) \]</span></p>
+<p><span class="math display">\[ \dfrac{e^{x} + e^{-x}}{2} \quad = \quad \dfrac{e^{-x} + e^{x}}{2} \]</span></p>
+<p>Sim, o seno hiperbólica é função par.</p>
+</section>
+</section>
+<section id="secante-hiperbólica" class="level2" data-number="4.6">
+<h2 data-number="4.6" class="anchored" data-anchor-id="secante-hiperbólica"><span class="header-section-number">4.6</span> Secante hiperbólica</h2>
+<section id="definindo-sech-x" class="level3" data-number="4.6.1">
+<h3 data-number="4.6.1" class="anchored" data-anchor-id="definindo-sech-x"><span class="header-section-number">4.6.1</span> Definindo <span class="math inline">\(sech(-x)\)</span></h3>
+<p><span class="math display">\[sech(x) = \dfrac{2}{e^{x} + e^{-x}} \quad = \quad \dfrac{1}{\cosh(x)}\]</span></p>
+<p><span class="math display">\[sech(-x) = \dfrac{2}{e^{-x} + e^{x}}\]</span></p>
+</section>
+<section id="sechx-é-igual-a-sech-x" class="level3" data-number="4.6.2">
+<h3 data-number="4.6.2" class="anchored" data-anchor-id="sechx-é-igual-a-sech-x"><span class="header-section-number">4.6.2</span> <span class="math inline">\(sech(x)\)</span> é igual a <span class="math inline">\(sech(-x)\)</span>?</h3>
+<p><span class="math display">\[sech(x) \quad =  \quad sech(-x) \]</span></p>
+<p><span class="math display">\[ \dfrac{2}{e^{x} + e^{-x}} \quad = \quad \dfrac{2}{e^{-x} + e^{x}} \]</span></p>
+<p>Sim, a secante hiperbólica é função par.</p>
+
+
+</section>
+</section>
+</section>
+
+</main> <!-- /main -->
+<script type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    setTimeout(function() {
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      let href = ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../caps/hiperbolicas.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Funções Hiperbólicas</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../references.html" class="pagination-link">
+        <span class="nav-page-text">References</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+</body></html>

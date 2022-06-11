@@ -1,0 +1,138 @@
+# Funções (ím)pares e Hiperbólicas
+
+Verificando a relação da funções hiperbólicas e funções ímpares ou pares.
+
+
+# As funções hiperbólicas são funções pares ou ímpares?
+
+Nessa seção iremos verificar quais funções hiperbólicas são ímpares ou pares:
+
+## Seno hiperbólico
+
+### Definindo $\sinh(-x)$
+
+$$\sinh(x) = \dfrac{e^{x} - e^{-x}}{2}$$
+
+$$\sinh(-x) = \dfrac{e^{-x} - e^{x}}{2} $$
+
+### Definindo $-\sinh(x)$
+
+$$\sinh(x) = \dfrac{e^{x} - e^{-x}}{2}$$
+
+$$-\sinh(x) = - \dfrac{e^{x} - e^{-x}}{2}$$
+
+$$-\sinh(x) = \dfrac{-e^{x} + e^{-x}}{2}$$
+
+### $\sinh(-x)$ é igual a $-\sinh(x)$?
+
+$$\sinh(-x) \quad =  \quad -\sinh(x) $$
+
+$$ \dfrac{e^{-x} - e^{x}}{2} \quad = \quad \dfrac{-e^{x} + e^{-x}}{2} $$
+
+Sim, o seno hiperbólico é função ímpar.
+
+
+## Tangente hiperbólica
+
+### Definindo $\tanh(-x)$
+$$\tanh(x) = \dfrac{e^{x} - e^{-x}}{e^{x} + e^{-x}}$$
+
+$$\tanh(-x) = \dfrac{e^{-x} - e^{x}}{e^{-x} + e^{x}}$$
+
+### Definindo $-\tanh(x)$
+$$\tanh(x) = \dfrac{e^{x} - e^{-x}}{e^{x} + e^{-x}}$$
+
+$$-\tanh(x) = -\dfrac{e^{x} - e^{-x}}{e^{x} + e^{-x}}$$
+
+$$-\tanh(x) = \dfrac{-e^{x} + e^{-x}}{e^{x} + e^{-x}}$$
+
+### $\tanh(-x)$ é igual a $-\tanh(x)$?
+
+$$\tanh(-x) \quad =  \quad -\tanh(x) $$
+
+$$ \dfrac{e^{-x} - e^{x}}{e^{-x} + e^{x}} \quad = \quad \dfrac{-e^{x} + e^{-x}}{e^{x} + e^{-x}} $$
+
+Sim, a tangente hiperbólica é função ímpar.
+
+## Cotangente hiperbólica
+
+### Definindo $\coth(-x)$
+
+$$\coth(x) = \dfrac{e^{x} + e^{-x}}{e^{x} - e^{-x}} \quad = \quad \dfrac{1}{\tanh(x)}$$   
+$$\coth(-x) = \dfrac{e^{-x} + e^{x}}{e^{-x} - e^{x}} $$
+
+### Definindo $-\coth(x)$
+
+$$-\coth(x) = \dfrac{e^{x} + e^{-x}}{e^{x} - e^{-x}} \quad = \quad \dfrac{1}{\tanh(x)}$$   
+
+$$-\coth(x) = -\dfrac{e^{x} + e^{-x}}{e^{x} - e^{-x}} $$
+
+$$-\coth(x) = \dfrac{e^{x} + e^{-x}}{-e^{x} + e^{-x}} $$
+
+### $\coth(-x)$ é igual a $-\coth(x)$?
+
+$$\coth(-x) \quad =  \quad -\coth(x) $$
+
+$$ \dfrac{e^{-x} + e^{x}}{e^{-x} - e^{x}} \quad = \quad \dfrac{e^{x} + e^{-x}}{-e^{x} + e^{-x}} $$
+
+Sim, a cotangente hiperbólica é função ímpar.
+
+
+## Cossecante hiperbólica 
+
+### Definindo $csch(-x)$
+
+
+$$csch(x) = \dfrac{2}{e^{x} - e^{-x}} \quad = \quad \dfrac{1}{\sinh(x)}$$   
+
+$$csch(-x) = \dfrac{2}{e^{-x} - e^{x}}$$   
+
+### Definindo $-csch(x)$
+
+$$csch(x) = \dfrac{2}{e^{x} - e^{-x}} \quad = \quad \dfrac{1}{\sinh(x)}$$   
+
+$$-csch(x) = -\dfrac{2}{e^{x} - e^{-x}}$$   
+
+$$-csch(x) = \dfrac{2}{-e^{x} + e^{-x}}$$   
+ 
+### $csch(-x)$ é igual a  $-csch(x)$?
+
+$$csch(-x) \quad =  \quad -csch(x)  $$
+
+$$ \dfrac{2}{e^{-x} - e^{x}} \quad = \quad \dfrac{2}{-e^{x} + e^{-x}} $$
+
+Sim, a cossecante hiperbólica é função ímpar.
+
+## Cosseno hiperbólico
+
+### Definindo $\cosh(-x)$
+
+$$\cosh(x) = \dfrac{e^{x} + e^{-x}}{2}$$
+
+$$\cosh(-x) = \dfrac{e^{-x} + e^{x}}{2}$$
+
+
+### $\cosh(x)$ é igual $\cosh(-x)$?
+
+$$\cosh(x) \quad =  \quad -\cosh(x) $$
+
+$$ \dfrac{e^{x} + e^{-x}}{2} \quad = \quad \dfrac{e^{-x} + e^{x}}{2} $$
+
+Sim, o seno hiperbólica é função par.
+
+##  Secante hiperbólica
+
+### Definindo $sech(-x)$
+
+$$sech(x) = \dfrac{2}{e^{x} + e^{-x}} \quad = \quad \dfrac{1}{\cosh(x)}$$   
+
+$$sech(-x) = \dfrac{2}{e^{-x} + e^{x}}$$   
+
+
+### $sech(x)$ é igual a $sech(-x)$?
+
+$$sech(x) \quad =  \quad sech(-x) $$
+
+$$ \dfrac{2}{e^{x} + e^{-x}} \quad = \quad \dfrac{2}{e^{-x} + e^{x}} $$
+
+Sim, a secante hiperbólica é função par.

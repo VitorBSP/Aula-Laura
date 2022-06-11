@@ -1,0 +1,13 @@
+# Funções Pares e Ímpares
+
+## Função Par
+
+### Definição:
+$$ f(x) = f(-x) $$
+
+
+## Função Ímpar
+
+### Definição:
+
+$$ f(-x) = -f(x) $$

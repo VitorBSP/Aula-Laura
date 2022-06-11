@@ -1,0 +1,121 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Anotações de Cálculo para Laura",
+    "section": "",
+    "text": "Anotações de estudos conjuntos para auxiliar a Laura (minha amada) posteriormente."
+  },
+  {
+    "objectID": "caps/intro.html",
+    "href": "caps/intro.html",
+    "title": "2  Livro",
+    "section": "",
+    "text": "Para a Laura, anotações de cálculo"
+  },
+  {
+    "objectID": "caps/summary.html",
+    "href": "caps/summary.html",
+    "title": "3  Summary",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever."
+  },
+  {
+    "objectID": "caps/hiperbolicos.html",
+    "href": "caps/hiperbolicos.html",
+    "title": "3  Funções (ím)pares e Hiperbólicas",
+    "section": "",
+    "text": "Verificando a relação da funções hiperbólicas e funções ímpares ou pares."
+  },
+  {
+    "objectID": "caps/hiperbolicos.html#definição-de-função-par",
+    "href": "caps/hiperbolicos.html#definição-de-função-par",
+    "title": "1  Funções hiperbólicas, ímpares e pares",
+    "section": "1.2 Definição de Função par",
+    "text": "1.2 Definição de Função par\n\\[ f(x) = f(-x) \\]"
+  },
+  {
+    "objectID": "caps/hiperbolicos.html#definição-de-função-ímpar",
+    "href": "caps/hiperbolicos.html#definição-de-função-ímpar",
+    "title": "1  Funções hiperbólicas, ímpares e pares",
+    "section": "1.3 Definição de Função ímpar",
+    "text": "1.3 Definição de Função ímpar\n\\[ f(-x) = -f(x) \\]"
+  },
+  {
+    "objectID": "caps/hiperbolicos.html#verificação-de-funções-hiperbólicas-são-ímpares",
+    "href": "caps/hiperbolicos.html#verificação-de-funções-hiperbólicas-são-ímpares",
+    "title": "1  Funções hiperbólicas, ímpares e pares",
+    "section": "1.4 Verificação de funções hiperbólicas são ímpares",
+    "text": "1.4 Verificação de funções hiperbólicas são ímpares\n\n1.4.1 Seno hiperbólico é função ímpar\n\n1.4.1.1 Senoh (-x)\n\\[\\sinh(x) = \\dfrac{e^{x} - e^{-x}}{2}\\]\n\\[\\sinh(-x) = \\dfrac{e^{-x} - e^{x}}{2} \\]\n\n\n1.4.1.2 -Senoh (x)\n\\[\\sinh(x) = \\dfrac{e^{x} - e^{-x}}{2}\\]\n\\[-\\sinh(x) = - \\dfrac{e^{x} - e^{-x}}{2}\\]\n\\[-\\sinh(x) = \\dfrac{-e^{x} + e^{-x}}{2}\\]\n\n\n\n1.4.2 Senoh (x) é igual a -Senoh (x)?\n\\[\\sinh(-x) \\quad =  \\quad -\\sinh(x) \\]\n\\[ \\dfrac{e^{-x} - e^{x}}{2} \\quad = \\quad \\dfrac{-e^{x} + e^{-x}}{2} \\]\n\n\n1.4.3 Tangente hiperbólica é função ímpar\n\n1.4.3.1 tangenteh (-x)\n\\[\\tanh(x) = \\dfrac{e^{x} - e^{-x}}{e^{x} + e^{-x}}\\]\n\\[\\tanh(-x) = \\dfrac{e^{-x} - e^{x}}{e^{-x} + e^{x}}\\]\n\n\n1.4.3.2 -tangenteh (x)\n\\[\\tanh(x) = \\dfrac{e^{x} - e^{-x}}{e^{x} + e^{-x}}\\]\n\\[-\\tanh(x) = -\\dfrac{e^{x} - e^{-x}}{e^{x} + e^{-x}}\\]\n\\[-\\tanh(x) = \\dfrac{-e^{x} + e^{-x}}{e^{x} + e^{-x}}\\]\n\n\n\n1.4.4 tangenteh (-x) é igual a -tangenteh (x)?\n\\[\\tanh(-x) \\quad =  \\quad -\\tanh(x) \\]\n\\[ \\dfrac{e^{-x} - e^{x}}{e^{-x} + e^{x}} \\quad = \\quad \\dfrac{-e^{x} + e^{-x}}{e^{x} + e^{-x}} \\]\n\n\n1.4.5 Cotangente hiperbólica é função ímpar\n\n1.4.5.1 cotangenteh (-x)\n\\[\\coth(x) = \\dfrac{e^{x} + e^{-x}}{e^{x} - e^{-x}} \\quad = \\quad \\dfrac{1}{\\tanh(x)}\\]\n\\[\\coth(-x) = \\dfrac{e^{-x} + e^{x}}{e^{-x} - e^{x}} \\]\n\n\n1.4.5.2 -cotangenteh (x)\n\\[-\\coth(x) = \\dfrac{e^{x} + e^{-x}}{e^{x} - e^{-x}} \\quad = \\quad \\dfrac{1}{\\tanh(x)}\\]\n\\[-\\coth(x) = -\\dfrac{e^{x} + e^{-x}}{e^{x} - e^{-x}} \\]\n\\[-\\coth(x) = \\dfrac{e^{x} + e^{-x}}{-e^{x} + e^{-x}} \\]\n\n\n\n1.4.6 cotangenteh (-x) é igual a -cotangenteh (x)?\n\\[\\coth(-x) \\quad =  \\quad -\\coth(x) \\]\n\\[ \\dfrac{e^{-x} + e^{x}}{e^{-x} - e^{x}} \\quad = \\quad \\dfrac{e^{x} + e^{-x}}{-e^{x} + e^{-x}} \\]\n\n\n1.4.7 Cossecante hiperbólica é função ímpar\n\n1.4.7.1 cossecanteh (-x)\n\\[csch(x) = \\dfrac{2}{e^{x} - e^{-x}} \\quad = \\quad \\dfrac{1}{\\sinh(x)}\\]\n\\[csch(-x) = \\dfrac{2}{e^{-x} - e^{x}}\\]\n\n\n1.4.7.2 -cossecanteh (x)\n\\[csch(x) = \\dfrac{2}{e^{x} - e^{-x}} \\quad = \\quad \\dfrac{1}{\\sinh(x)}\\]\n\\[-csch(x) = -\\dfrac{2}{e^{x} - e^{-x}}\\]\n\\[-csch(x) = \\dfrac{2}{-e^{x} + e^{-x}}\\]\n\n\n\n1.4.8 cossecanteh (-x) é igual a -cossecanteh (x)?\n\\[csch(-x) \\quad =  \\quad -csch(x)  \\]\n\\[ \\dfrac{2}{e^{-x} - e^{x}} \\quad = \\quad \\dfrac{2}{-e^{x} + e^{-x}} \\]"
+  },
+  {
+    "objectID": "caps/hiperbolicos.html#verificação-de-funções-hiperbólicas-são-pares",
+    "href": "caps/hiperbolicos.html#verificação-de-funções-hiperbólicas-são-pares",
+    "title": "1  Exercícios",
+    "section": "2.2 Verificação de funções hiperbólicas são pares",
+    "text": "2.2 Verificação de funções hiperbólicas são pares\n\n2.2.1 Cosseno hiperbólico é função par\n\n2.2.1.1 Cossenoh (-x)\n\\[\\cosh(x) = \\dfrac{e^{x} + e^{-x}}{2}\\]\n\\[\\cosh(-x) = \\dfrac{e^{-x} + e^{x}}{2}\\]\n\n\n\n2.2.2 Cossenoh (x) é igual a Cossenoh (-x)?\n\\[\\cosh(x) \\quad =  \\quad -\\cosh(x) \\]\n\\[ \\dfrac{e^{x} + e^{-x}}{2} \\quad = \\quad \\dfrac{e^{-x} + e^{x}}{2} \\]\n\n\n2.2.3 Secante hiperbólica é função par\n\n2.2.3.1 secanteh (-x)\n\\[sech(x) = \\dfrac{2}{e^{x} + e^{-x}} \\quad = \\quad \\dfrac{1}{\\cosh(x)}\\]\n\\[sech(-x) = \\dfrac{2}{e^{-x} + e^{x}}\\]\n\n\n\n2.2.4 secanteh (x) é igual a secanteh (-x)?\n\\[sech(x) \\quad =  \\quad sech(-x) \\]\n\\[ \\dfrac{2}{e^{x} + e^{-x}} \\quad = \\quad \\dfrac{2}{e^{-x} + e^{x}} \\]"
+  },
+  {
+    "objectID": "caps/hiperbolicos.html#seno-hiperbólico",
+    "href": "caps/hiperbolicos.html#seno-hiperbólico",
+    "title": "3  Funções (ím)pares e Hiperbólicas",
+    "section": "4.1 Seno hiperbólico",
+    "text": "4.1 Seno hiperbólico\n\n4.1.1 Definindo \\(\\sinh(-x)\\)\n\\[\\sinh(x) = \\dfrac{e^{x} - e^{-x}}{2}\\]\n\\[\\sinh(-x) = \\dfrac{e^{-x} - e^{x}}{2} \\]\n\n\n4.1.2 Definindo \\(-\\sinh(x)\\)\n\\[\\sinh(x) = \\dfrac{e^{x} - e^{-x}}{2}\\]\n\\[-\\sinh(x) = - \\dfrac{e^{x} - e^{-x}}{2}\\]\n\\[-\\sinh(x) = \\dfrac{-e^{x} + e^{-x}}{2}\\]\n\n\n4.1.3 \\(\\sinh(-x)\\) é igual a \\(-\\sinh(x)\\)?\n\\[\\sinh(-x) \\quad =  \\quad -\\sinh(x) \\]\n\\[ \\dfrac{e^{-x} - e^{x}}{2} \\quad = \\quad \\dfrac{-e^{x} + e^{-x}}{2} \\]\nSim, o seno hiperbólico é função ímpar."
+  },
+  {
+    "objectID": "caps/hiperbolicos.html#tangente-hiperbólica",
+    "href": "caps/hiperbolicos.html#tangente-hiperbólica",
+    "title": "3  Funções (ím)pares e Hiperbólicas",
+    "section": "4.2 Tangente hiperbólica",
+    "text": "4.2 Tangente hiperbólica\n\n4.2.1 Definindo \\(\\tanh(-x)\\)\n\\[\\tanh(x) = \\dfrac{e^{x} - e^{-x}}{e^{x} + e^{-x}}\\]\n\\[\\tanh(-x) = \\dfrac{e^{-x} - e^{x}}{e^{-x} + e^{x}}\\]\n\n\n4.2.2 Definindo \\(-\\tanh(x)\\)\n\\[\\tanh(x) = \\dfrac{e^{x} - e^{-x}}{e^{x} + e^{-x}}\\]\n\\[-\\tanh(x) = -\\dfrac{e^{x} - e^{-x}}{e^{x} + e^{-x}}\\]\n\\[-\\tanh(x) = \\dfrac{-e^{x} + e^{-x}}{e^{x} + e^{-x}}\\]\n\n\n4.2.3 \\(\\tanh(-x)\\) é igual a \\(-\\tanh(x)\\)?\n\\[\\tanh(-x) \\quad =  \\quad -\\tanh(x) \\]\n\\[ \\dfrac{e^{-x} - e^{x}}{e^{-x} + e^{x}} \\quad = \\quad \\dfrac{-e^{x} + e^{-x}}{e^{x} + e^{-x}} \\]\nSim, a tangente hiperbólica é função ímpar."
+  },
+  {
+    "objectID": "caps/hiperbolicos.html#cotangente-hiperbólica",
+    "href": "caps/hiperbolicos.html#cotangente-hiperbólica",
+    "title": "3  Funções (ím)pares e Hiperbólicas",
+    "section": "4.3 Cotangente hiperbólica",
+    "text": "4.3 Cotangente hiperbólica\n\n4.3.1 Definindo \\(\\coth(-x)\\)\n\\[\\coth(x) = \\dfrac{e^{x} + e^{-x}}{e^{x} - e^{-x}} \\quad = \\quad \\dfrac{1}{\\tanh(x)}\\]\n\\[\\coth(-x) = \\dfrac{e^{-x} + e^{x}}{e^{-x} - e^{x}} \\]\n\n\n4.3.2 Definindo \\(-\\coth(x)\\)\n\\[-\\coth(x) = \\dfrac{e^{x} + e^{-x}}{e^{x} - e^{-x}} \\quad = \\quad \\dfrac{1}{\\tanh(x)}\\]\n\\[-\\coth(x) = -\\dfrac{e^{x} + e^{-x}}{e^{x} - e^{-x}} \\]\n\\[-\\coth(x) = \\dfrac{e^{x} + e^{-x}}{-e^{x} + e^{-x}} \\]\n\n\n4.3.3 \\(\\coth(-x)\\) é igual a \\(-\\coth(x)\\)?\n\\[\\coth(-x) \\quad =  \\quad -\\coth(x) \\]\n\\[ \\dfrac{e^{-x} + e^{x}}{e^{-x} - e^{x}} \\quad = \\quad \\dfrac{e^{x} + e^{-x}}{-e^{x} + e^{-x}} \\]\nSim, a cotangente hiperbólica é função ímpar."
+  },
+  {
+    "objectID": "caps/hiperbolicos.html#cossecante-hiperbólica",
+    "href": "caps/hiperbolicos.html#cossecante-hiperbólica",
+    "title": "3  Funções (ím)pares e Hiperbólicas",
+    "section": "4.4 Cossecante hiperbólica",
+    "text": "4.4 Cossecante hiperbólica\n\n4.4.1 Definindo \\(csch(-x)\\)\n\\[csch(x) = \\dfrac{2}{e^{x} - e^{-x}} \\quad = \\quad \\dfrac{1}{\\sinh(x)}\\]\n\\[csch(-x) = \\dfrac{2}{e^{-x} - e^{x}}\\]\n\n\n4.4.2 Definindo \\(-csch(x)\\)\n\\[csch(x) = \\dfrac{2}{e^{x} - e^{-x}} \\quad = \\quad \\dfrac{1}{\\sinh(x)}\\]\n\\[-csch(x) = -\\dfrac{2}{e^{x} - e^{-x}}\\]\n\\[-csch(x) = \\dfrac{2}{-e^{x} + e^{-x}}\\]\n\n\n4.4.3 \\(csch(-x)\\) é igual a \\(-csch(x)\\)?\n\\[csch(-x) \\quad =  \\quad -csch(x)  \\]\n\\[ \\dfrac{2}{e^{-x} - e^{x}} \\quad = \\quad \\dfrac{2}{-e^{x} + e^{-x}} \\]\nSim, a cossecante hiperbólica é função ímpar."
+  },
+  {
+    "objectID": "caps/hiperbolicos.html#cosseno-hiperbólico",
+    "href": "caps/hiperbolicos.html#cosseno-hiperbólico",
+    "title": "3  Funções (ím)pares e Hiperbólicas",
+    "section": "4.5 Cosseno hiperbólico",
+    "text": "4.5 Cosseno hiperbólico\n\n4.5.1 Definindo \\(\\cosh(-x)\\)\n\\[\\cosh(x) = \\dfrac{e^{x} + e^{-x}}{2}\\]\n\\[\\cosh(-x) = \\dfrac{e^{-x} + e^{x}}{2}\\]\n\n\n4.5.2 \\(\\cosh(x)\\) é igual \\(\\cosh(-x)\\)?\n\\[\\cosh(x) \\quad =  \\quad -\\cosh(x) \\]\n\\[ \\dfrac{e^{x} + e^{-x}}{2} \\quad = \\quad \\dfrac{e^{-x} + e^{x}}{2} \\]\nSim, o seno hiperbólica é função par."
+  },
+  {
+    "objectID": "caps/hiperbolicos.html#secante-hiperbólica",
+    "href": "caps/hiperbolicos.html#secante-hiperbólica",
+    "title": "3  Funções (ím)pares e Hiperbólicas",
+    "section": "4.6 Secante hiperbólica",
+    "text": "4.6 Secante hiperbólica\n\n4.6.1 Definindo \\(sech(-x)\\)\n\\[sech(x) = \\dfrac{2}{e^{x} + e^{-x}} \\quad = \\quad \\dfrac{1}{\\cosh(x)}\\]\n\\[sech(-x) = \\dfrac{2}{e^{-x} + e^{x}}\\]\n\n\n4.6.2 \\(sech(x)\\) é igual a \\(sech(-x)\\)?\n\\[sech(x) \\quad =  \\quad sech(-x) \\]\n\\[ \\dfrac{2}{e^{x} + e^{-x}} \\quad = \\quad \\dfrac{2}{e^{-x} + e^{x}} \\]\nSim, a secante hiperbólica é função par."
+  },
+  {
+    "objectID": "caps/funcoes.html",
+    "href": "caps/funcoes.html",
+    "title": "1  Funções Pares e Ímpares",
+    "section": "",
+    "text": "\\[ f(x) = f(-x) \\]"
+  },
+  {
+    "objectID": "caps/funcoes.html#função-ímpar",
+    "href": "caps/funcoes.html#função-ímpar",
+    "title": "1  Funções Pares e Ímpares",
+    "section": "1.2 Função Ímpar",
+    "text": "1.2 Função Ímpar\n\n1.2.1 Definição:\n\\[ f(-x) = -f(x) \\]"
+  },
+  {
+    "objectID": "caps/hiperbolicas.html",
+    "href": "caps/hiperbolicas.html",
+    "title": "2  Funções Hiperbólicas",
+    "section": "",
+    "text": "\\[\\sinh(x) = \\dfrac{e^{x} - e^{-x}}{2}\\]\n\\[\\cosh(x) = \\dfrac{e^{x} + e^{-x}}{2}\\]\n\\[\\tanh(x) = \\dfrac{e^{x} - e^{-x}}{e^{x} + e^{-x}}\\]\n\\[\\coth(x) = \\dfrac{e^{x} + e^{-x}}{e^{x} - e^{-x}} \\quad = \\quad \\dfrac{1}{\\tanh(x)}\\]\n\\[sech(x) = \\dfrac{2}{e^{x} + e^{-x}} \\quad = \\quad \\dfrac{1}{\\cosh(x)}\\]\n\\[csch(x) = \\dfrac{2}{e^{x} - e^{-x}} \\quad = \\quad \\dfrac{1}{\\sinh(x)}\\]"
+  }
+]

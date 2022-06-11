@@ -1,0 +1,33 @@
+project:
+  type: book
+  output-dir: docs
+lang: pt
+
+book:
+  title: "Anotações de Cálculo \n para Laura"
+  author: "Vítor Pereira"
+  chapters:
+    - index.qmd
+    - caps/funcoes.qmd
+    - caps/hiperbolicas.qmd
+    - caps/hiperbolicos.qmd
+    - references.qmd
+  favicon: "favicon"
+  navbar:
+    search: true
+    location: footbar
+    type: overlay
+    right:
+      - icon: github
+        href: https://github.com/VitorBSP/Aula-Laura
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: lumen
+  pdf:
+    documentclass: scrreprt
+
+
+
