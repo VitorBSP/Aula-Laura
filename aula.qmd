@@ -1,0 +1,55 @@
+---
+title: "Aula Cálculo - Oceanologia - Laura"
+author: Vítor e Laura
+format: html
+---
+
+# Fórmulas
+
+$$\sinh(x) = \dfrac{e^{x} - e^{-x}}{2}$$
+
+$$\cosh(x) = \dfrac{e^{x} + e^{-x}}{2}$$
+
+$$\tanh(x) = \dfrac{e^{x} - e^{-x}}{e^{x} + e^{-x}}$$
+
+$$\coth(x) = \dfrac{e^{x} + e^{-x}}{e^{x} - e^{-x}} \quad = \quad \dfrac{1}{\tanh(x)}$$   
+
+$$sech(x) = \dfrac{2}{e^{x} + e^{-x}} \quad = \quad \dfrac{1}{\cosh(x)}$$   
+
+$$csch(x) = \dfrac{2}{e^{x} - e^{-x}} \quad = \quad \dfrac{1}{\sinh(x)}$$   
+
+# Função par
+
+$$ f(x) = f(-x) $$
+
+
+# Função ímpar
+
+$$ f(-x) = -f(x) $$
+
+
+## Provar que a seno, tangente, cotangente e cossecante hipérbolicos são funções ímpares
+
+### Provando que o seno hiperbólico é função ímpar
+
+#### Senoh (-x)
+
+$$\sinh(x) = \dfrac{e^{x} - e^{-x}}{2}$$
+
+$$\sinh(-x) = \dfrac{e^{-x} - e^{x}}{2} $$
+
+#### -Senoh (x)
+
+$$\sinh(x) = \dfrac{e^{x} - e^{-x}}{2}$$
+
+$$-\sinh(x) = - \dfrac{e^{x} - e^{-x}}{2}$$
+
+$$-\sinh(x) = \dfrac{-e^{x} + e^{-x}}{2}$$
+
+### Senoh (x) é igual a -Senoh (x)?
+
+$$\sinh(-x) \quad =  \quad -\sinh(x) $$
+
+$$ \dfrac{e^{-x} - e^{x}}{2} \quad = \quad \dfrac{-e^{x} + e^{-x}}{2} $$
+
+## Provar que a cosseno e a secante hiperbólicos são funções pares
